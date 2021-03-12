@@ -18,21 +18,22 @@
 </head>
 
 <body id="topfixed">
-    
+
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/sweetalert2/dist/sweetalert2.js"></script>
-    
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    
-    
+
+
     <div class="navbar navbar-expand-lg navbar-light bg-custom1 p-0 topfixed">
         <div class="container-fluid p-0" style="padding: 0px 24px 0px 24px;">
             <div class="row w-100 m-0">
                 <div class="col justify-content-center d-flex rounded">
                     <div class="navbar-brand text-white p-0 m-0" class="title">
                         <div class="p-2">
-                            <img src="./img/logo_only2222.png" width="125" class="d-inline-block align-top rounded" alt="LUX" id="logo">
+                            <img src="./img/logo_only2222.png" width="125" class="d-inline-block align-top rounded"
+                                alt="LUX" id="logo">
                         </div>
                     </div>
                 </div>
@@ -41,36 +42,50 @@
                         <div class="col-md-10">
                             <div>
                                 <div class="row w-100">
-                                    <div class="col p-1 align-self-center d-flex">
+                                    <div class="p-1 align-self-center d-flex col-md-12">
                                         <ul class="navbar-nav mr-auto w-100">
-                                            <li class="nav-item">
-                                                <a class="btn nav-link text-custom lead a-nav" href="#topfixed">Sobre</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="btn nav-link text-custom lead a-nav" href="#tjb2">Contato</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="btn nav-link text-custom lead a-nav" href="#tjb3">Serviços</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="btn nav-link text-custom lead a-nav" href="#tjb4">Parceiros</a>
-                                            </li>
-                                            <li class="nav-item d-flex align-self-right">
-                                                <div class="col align-self-center d-flex">
-                                                    <div class="row">
+
+
+
+                                            <div class="row w-100">
+                                                <div class="col-md-6">
+                                                    <li class="nav-item">
+                                                        <a class="btn nav-link text-custom lead a-nav"
+                                                            href="#topfixed">Sobre</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="btn nav-link text-custom lead a-nav"
+                                                            href="#tjb2">Contato</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="btn nav-link text-custom lead a-nav"
+                                                            href="#tjb3">Serviços</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="btn nav-link text-custom lead a-nav"
+                                                            href="#tjb4">Parceiros</a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-md-6 d-flex justify-content-end">
+                                                    <li class="nav-item d-flex">
                                                         <div class="col align-self-center d-flex">
-                                                            <div class="btn-group" role="group" aria-label="">
-                                                                <span class="btn btn-success" id="btn_contato1">
-                                                                    <i class="bi bi-whatsapp lead"></i>
-                                                                </span>
-                                                                <button class="btn btn-success active" id="btn_contato2">
-                                                                    WhatsApp
-                                                                </button>
+                                                            <div class="row">
+                                                                <div class="col align-self-center d-flex">
+                                                                    <div class="btn-group" role="group" aria-label="">
+                                                                        <span class="btn btn-success" id="btn_contato1">
+                                                                            <i class="bi bi-whatsapp lead"></i>
+                                                                        </span>
+                                                                        <button class="btn btn-success active"
+                                                                            id="btn_contato2">
+                                                                            WhatsApp
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </li>
                                                 </div>
-                                            </li>
+                                            </div>
                                         </ul>
                                     </div>
                                     <div class="col-md-7 p-1 align-self-center d-flex"></div>
@@ -104,8 +119,10 @@
                                     <h1 class="display-4">Sobre a Lux...</h1>
                                     <hr class="my-3">
                                     <div class="lead text-justify">
-                                        Somos uma empresa com mais de 20 anos de mercado, já pintamos prédios por toda São Paulo. Temos os melhores 
-                                        funcionários treinados e preparados com os melhores equipamentos. Trabalhamos de forma segura e com as melhores tintas do mercado.
+                                        Somos uma empresa com mais de 20 anos de mercado, já pintamos prédios por toda
+                                        São Paulo. Temos os melhores
+                                        funcionários treinados e preparados com os melhores equipamentos. Trabalhamos de
+                                        forma segura e com as melhores tintas do mercado.
                                     </div>
                                     <div class="p-4"></div>
                                     <div class="row">
@@ -127,38 +144,52 @@
                                             <div class="col">
                                                 <form>
                                                     <div class="form-row">
-                                                    <div class="col-md-6 mb-3">
-                                                        <label for="validationCustom01">Email</label>
-                                                        <div class="input-group mb-3">
-                                                            <input type="text" readonly class="form-control" id="validationCustom01" placeholder="First name" value="luxpinturasmarco@gmail.com">
-                                                            <div class="input-group-append">
-                                                            <button class="btn btn-info" type="button">Copiar</button>
+                                                        <div class="col-md-6 mb-3">
+                                                            <label for="validationCustom01">Email</label>
+                                                            <div class="input-group mb-3">
+                                                                <input type="text" readonly class="form-control"
+                                                                    id="validationCustom01" placeholder="First name"
+                                                                    value="luxpinturasmarco@gmail.com">
+                                                                <div class="input-group-append">
+                                                                    <button class="btn btn-info"
+                                                                        type="button">Copiar</button>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-md-6 mb-3">
-                                                        <label for="validationCustom02">Telefone</label>
-                                                        <div class="input-group mb-3">
-                                                            <input type="text" readonly class="form-control" id="contact" placeholder="Last name" value="+55 (11) 99896-3735">
-                                                            <div class="input-group-append">
-                                                            <button class="btn btn-dark" type="button" id="tel_info" data-toggle="popover" title="Região de Atendimento" data-content="Atendemos apenas em São Paulo (Capital), Abc Paulista e Guarulhos.">!</button>
+                                                        <div class="col-md-6 mb-3">
+                                                            <label for="validationCustom02">Telefone</label>
+                                                            <div class="input-group mb-3">
+                                                                <input type="text" readonly class="form-control"
+                                                                    id="contact" placeholder="Last name"
+                                                                    value="+55 (11) 99896-3735">
+                                                                <div class="input-group-append">
+                                                                    <button class="btn btn-dark" type="button"
+                                                                        id="tel_info" data-toggle="popover"
+                                                                        title="Região de Atendimento"
+                                                                        data-content="Atendemos apenas em São Paulo (Capital), Abc Paulista e Guarulhos.">!</button>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
                                                     </div>
                                                     <div class="form-row">
-                                                    <div class="col-md-6 mb-3">
-                                                        <label for="validationCustom03">Endereço</label>
-                                                        <input type="text" readonly class="form-control" id="validationCustom03" placeholder="City" value="Rua Dr. Virgílio do Nascimento, 438">
-                                                    </div>
-                                                    <div class="col-md-3 mb-3">
-                                                        <label for="validationCustom04">Bairro</label>
-                                                        <input type="text" readonly class="form-control" id="validationCustom04" placeholder="State" value="Brás">
-                                                    </div>
-                                                    <div class="col-md-3 mb-3">
-                                                        <label for="validationCustom05">Local</label>
-                                                        <input type="text" readonly class="form-control" id="validationCustom05" placeholder="Zip" value="São Paulo, SP">
-                                                    </div>
+                                                        <div class="col-md-6 mb-3">
+                                                            <label for="validationCustom03">Endereço</label>
+                                                            <input type="text" readonly class="form-control"
+                                                                id="validationCustom03" placeholder="City"
+                                                                value="Rua Dr. Virgílio do Nascimento, 438">
+                                                        </div>
+                                                        <div class="col-md-3 mb-3">
+                                                            <label for="validationCustom04">Bairro</label>
+                                                            <input type="text" readonly class="form-control"
+                                                                id="validationCustom04" placeholder="State"
+                                                                value="Brás">
+                                                        </div>
+                                                        <div class="col-md-3 mb-3">
+                                                            <label for="validationCustom05">Local</label>
+                                                            <input type="text" readonly class="form-control"
+                                                                id="validationCustom05" placeholder="Zip"
+                                                                value="São Paulo, SP">
+                                                        </div>
                                                     </div>
                                                 </form>
                                             </div>
@@ -167,29 +198,33 @@
                                     <div class="p-4"></div>
                                     <div class="row justify-content-end">
                                         <div class="col d-flex justify-content-end">
-                                            <a href="https://maps.google.com/maps?ll=-23.528874,-46.61236&z=14&t=m&hl=pt-BR&gl=BR&mapclient=embed&q=R.%20Dr.%20Virg%C3%ADlio%20do%20Nascimento%2C%20438%20-%20Br%C3%A1s%20S%C3%A3o%20Paulo%20-%20SP%2003027-020" target="_blank" class="btn btn-info">Ir ao Maps</a>
+                                            <a href="https://maps.google.com/maps?ll=-23.528874,-46.61236&z=14&t=m&hl=pt-BR&gl=BR&mapclient=embed&q=R.%20Dr.%20Virg%C3%ADlio%20do%20Nascimento%2C%20438%20-%20Br%C3%A1s%20S%C3%A3o%20Paulo%20-%20SP%2003027-020"
+                                                target="_blank" class="btn btn-info">Ir ao Maps</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col"></div>
                                 <div class="col-md-5">
-                                    <iframe class="img-fluid rounded map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.40935307405!2d-46.61245952788482!3d-23.5288213438787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58c2814fa27b%3A0x340703afa21555cb!2sR.%20Dr.%20Virg%C3%ADlio%20do%20Nascimento%2C%20438%20-%20Br%C3%A1s%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003027-020!5e0!3m2!1spt-BR!2sbr!4v1614281504327!5m2!1spt-BR!2sbr" width="600" height="400" style="border:0;" allowfullscreen="false">
+                                    <iframe class="img-fluid rounded map"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.40935307405!2d-46.61245952788482!3d-23.5288213438787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58c2814fa27b%3A0x340703afa21555cb!2sR.%20Dr.%20Virg%C3%ADlio%20do%20Nascimento%2C%20438%20-%20Br%C3%A1s%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003027-020!5e0!3m2!1spt-BR!2sbr!4v1614281504327!5m2!1spt-BR!2sbr"
+                                        width="600" height="400" style="border:0;" allowfullscreen="false">
                                     </iframe>
                                 </div>
                                 <div class="col"></div>
-                                
+
                             </div>
                         </div>
                         <div id="tjb3"></div>
                         <div class="jumbotron p-0 jb3" id="jb3">
                             <div class="row p-4">
                                 <div class="col">
-                                        <h1 class="display-4">Nossos serviços...</h1>
-                                        <hr class="my-3">
-                                        <div class="lead text-justify">
-                                        Fazemos impermeabilização, lavagem, textura, grafiato, serviços de pintura em geral.
-                                        </div>
-                                        <div class="p-4"></div>
+                                    <h1 class="display-4">Nossos serviços...</h1>
+                                    <hr class="my-3">
+                                    <div class="lead text-justify">
+                                        Fazemos impermeabilização, lavagem, textura, grafiato, serviços de pintura em
+                                        geral.
+                                    </div>
+                                    <div class="p-4"></div>
                                 </div>
                             </div>
                             <div class="row p-4">
@@ -204,55 +239,56 @@
                         <div class="jumbotron p-0 jb4" id="jb4">
                             <div class="row p-4">
                                 <div class="col">
-                                        <h1 class="display-4">Nossos parceiros...</h1>
-                                        <hr class="my-3">
-                                        <div class="galeria">
-                                            <div class="row">
-                                                <div class="col"><img class="img-fluid rounded" src="./img/suvinil.png"></div>
-                                                <div class="col"><img class="img-fluid rounded" src="./img/coral.png"></div>
+                                    <h1 class="display-4">Nossos parceiros...</h1>
+                                    <hr class="my-3">
+                                    <div class="galeria">
+                                        <div class="row">
+                                            <div class="col"><img class="img-fluid rounded" src="./img/suvinil.png">
                                             </div>
+                                            <div class="col"><img class="img-fluid rounded" src="./img/coral.png"></div>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        
-                        
-                        
+
+
+
                         <script>
 
-                            $('.a-nav').on('click', function(){
+                            $('.a-nav').on('click', function () {
                                 adress_coord = $($(this).attr('href')).offset().top - 93;
-                                $('html,body').animate({scrollTop: adress_coord}, 250);
+                                $('html,body').animate({ scrollTop: adress_coord }, 250);
                             });
 
-                            $('#contact').on('mouseover', function(){
+                            $('#contact').on('mouseover', function () {
                                 $('#tel_info').click();
                             });
 
-                            $('#contact').on('mouseout', function(){
+                            $('#contact').on('mouseout', function () {
                                 $('#tel_info').click();
                             });
 
-                            $('#logo').on('mouseover', function(){
-                                $('#logo').attr('src','./img/logo_only22221.png');
+                            $('#logo').on('mouseover', function () {
+                                $('#logo').attr('src', './img/logo_only22221.png');
                             });
 
-                            $('#logo').on('mouseout', function(){
-                                $('#logo').attr('src','./img/logo_only2222.png');
+                            $('#logo').on('mouseout', function () {
+                                $('#logo').attr('src', './img/logo_only2222.png');
                             });
 
 
-                            $('#logo').on('mouseout', function(){
+                            $('#logo').on('mouseout', function () {
                                 $('#logo').click();
                             });
 
-                            $('#contact').on('click', function(){
+                            $('#contact').on('click', function () {
                                 $('#tel_info').click();
                             });
 
 
-                            $('#btn_contato1 , #btn_contato2, #btn_orcamento').on('click',function(){
+                            $('#btn_contato1 , #btn_contato2, #btn_orcamento').on('click', function () {
                                 Swal.fire({
                                     title: 'Você realmente quer ser redirecionado ao contato?',
                                     icon: 'info',
@@ -263,17 +299,17 @@
                                 }).then((result) => {
                                     /* Read more about isConfirmed, isDenied below */
                                     if (result.isConfirmed) {
-                                        window.open('https://wa.me/5511949686852','_blank')
+                                        window.open('https://wa.me/5511949686852', '_blank')
                                     } else if (result.isDenied) {
                                         let timerInterval
                                         Swal.fire({
-                                        title: 'Voltando atrás...',
-                                        icon: 'error',
-                                        timer: 2000,
-                                        timerProgressBar: true,
-                                        willClose: () => {
-                                            clearInterval(timerInterval)
-                                        }
+                                            title: 'Voltando atrás...',
+                                            icon: 'error',
+                                            timer: 2000,
+                                            timerProgressBar: true,
+                                            willClose: () => {
+                                                clearInterval(timerInterval)
+                                            }
                                         })
                                     }
                                 })
